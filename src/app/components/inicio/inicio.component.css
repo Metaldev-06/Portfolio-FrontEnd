@@ -1,0 +1,122 @@
+.hero-container {
+    margin-top: 10vh;
+}
+
+.hero {
+    width: 100%;
+    height: 40vh;
+    z-index: 10;
+    box-shadow: 0 8px 15px rgb(73, 73, 73);
+}
+
+.hero .portada {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-perfil {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.perfil {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: -100px;
+    border: 2px solid white;
+    box-shadow: 0 0 15px rgb(73, 73, 73);
+}
+
+@media (max-width: 500px) {
+    .container-header {
+        height: auto;
+        background-color: white;
+    }
+
+    .header {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .historial-laboral {
+        width: 95%
+    }
+  }
+
+  @media (max-width: 600px) {
+    .title-banner {
+        font-size: 20px;
+        padding: 0;
+    }
+    
+    .template-content {
+        width: 100%;
+        margin: 20px auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .img-template {
+        width: 90%;
+        height: 100%;
+    }
+    
+    .datos-template {
+        width: 90%;
+        margin-right: 0;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+
+
+    .article-skills {
+        width: 100%;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+    }
+
+    .container-skills {
+        width: 100%;
+        grid-column: 1 / -1;
+        flex-direction: column;
+    }
+    .container-front {
+        width: 100%;
+        text-align: center;
+    }
+    .title-skills-front {
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+
+    .container-back {
+        margin:0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .title-skills-back {
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+    .skills {
+        margin-bottom: 50px;
+    }
+
+    .title-skills img {
+        width: 50px;
+
+    }
+  }

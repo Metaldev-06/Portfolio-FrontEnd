@@ -1,0 +1,29 @@
+<main id="login-form">
+    <section class="container-login">
+        <div class="card-login">
+            <div class="content-login">
+                <div class="login-img-container">
+                    <i class="fa-solid fa-user login-img"></i>
+                </div>
+                <div class="login-user">
+                    Usuario:
+                    <input type="text" name="" id="user" class="input-content" placeholder="Ingrese su nombre de usuario">
+                </div>
+                <div class="login-password">
+                    Contraseña:
+                    <div class="container-password">
+                        <input type="password" id="pass" class="input-content-password" placeholder="Ingrese su contraseña">
+                        <div class="img-password">
+                            <button id="btn-show-login" onclick="btnPassword()"><i class="fa-solid fa-eye"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="buttons-login">
+                    <input type="submit" value="Iniciar Sesión">
+                    <a class="register" routerLink="register" (click)='hiddenLogin()'>Registrarse</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

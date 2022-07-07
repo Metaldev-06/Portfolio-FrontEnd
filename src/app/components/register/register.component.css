@@ -1,0 +1,128 @@
+.container-register {
+    width: 100%;
+    height: 100vh;
+    background-color: #2F3242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-register {
+    width: 350px;
+    height: 450px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 1px rgb(7, 7, 7);
+}
+
+.content-register {
+    width: 95%;
+    height: 95%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-user {
+    margin: 10px 0;
+}
+
+.input-content {
+    height: 30px;
+    padding: 0;
+}
+
+.content-register .register-img-container {
+    font-size: 150px;
+    text-align: center; 
+    color: rgb(37, 37, 37);
+}
+
+.container-password {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: 1px solid rgba(93, 93, 93, 0.255);
+    text-align: center;
+    display: flex;
+}
+
+.content-register .input-content-password {
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.input-content-password:focus {
+    outline: 1px solid rgba(93, 93, 93, 0.255);
+}
+
+
+.img-password{
+    border-left: 1px solid rgba(93, 93, 93, 0.255);;
+    width: 10%;
+}
+
+.img-password button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+
+.img-password button:hover{
+    background-color: #e1e1e1;
+}
+
+.input-content-password:focus {
+    outline: none;
+}
+
+.content-register .input-content {
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(93, 93, 93, 0.255);
+    border-radius: 5px;
+    text-align: center;
+}
+.content-register .buttons-register {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content-register .buttons-register a{
+    cursor: pointer;
+}
+
+.content-register .buttons-register a:hover{
+    color: #0D6EFD;
+}
+
+.content-register .buttons-register input {
+    cursor: pointer;
+    width: 50%;
+    height: 40px;
+    color:white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+.content-register .buttons-register input:hover {
+    background-color: rgb(37, 37, 37);
+}
+
+.content-register .buttons-register .register {
+    margin-top: 10px;
+    display: inline-block;
+    color:rgb(37, 37, 37);
+}
